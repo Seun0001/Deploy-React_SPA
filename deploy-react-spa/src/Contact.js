@@ -1,8 +1,20 @@
-// src/Contact.js
-import React from "react";
+import React, { Component } from "react";
 
-function Contact() {
-  return <h2>Welcome to the Contact page!</h2>;
+class Contact extends Component {
+  render() {
+    return (
+      <div>
+        <h2>GOT QUESTIONS?</h2>
+        <p>
+          The easiest thing to do is reach out on{" "}
+          <a href="mailto:oluwaseunafolabi941@gmail.com">
+            Email
+          </a>
+          .
+        </p>
+      </div>
+    );
+  }
 }
 
 export default Contact;
